@@ -8,11 +8,11 @@ CREATE TABLE person (
 );
 
 INSERT INTO person (name, age, height, city, favorite_color) VALUES
-('Alice', 25, 170, 'New York', 'green'),
-('Bob', 18, 180, 'Los Angeles', 'blue'),
-('Charlie', 27, 160, 'San Francisco', 'orange'),
-('Dave', 22, 175, 'Chicago', 'purple'),
-('Eve', 18, 165, 'Miami', 'yellow');
+('Steve', 28, 145, 'Indianapolis', 'blue'),
+('Brad', 37, 185, 'Boston', 'green'),
+('Chris', 19, 175, 'Detroit', 'orange'),
+('George', 32, 155, 'Chicago', 'red'),
+('Adam', 33, 190, 'Miami', 'black');
 
 SELECT * FROM person ORDER BY height DESC;
 SELECT * FROM person ORDER BY height ASC;
